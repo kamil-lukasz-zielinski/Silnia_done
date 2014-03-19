@@ -3,8 +3,6 @@ package javahive.silnia.impl;
 import com.google.common.math.BigIntegerMath;
 
 import javahive.silnia.KalkulatorSilni;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-
 
 /**
  *
