@@ -17,8 +17,7 @@ import javahive.silnia.KalkulatorSilni;
 public class SzybkiKalkulatorSilni implements KalkulatorSilni{
     //metoda licząca silnie w sposób rekurencyjny
     public long liczLong(long podstawa){
-    	if(podstawa<0)
-    	{
+    	if(podstawa<0) {
     		throw new ArithmeticException();
     	}
         if(podstawa>0) {

@@ -13,13 +13,12 @@ import javahive.silnia.KalkulatorSilni;
  * 
  */
 
-public class KalkulatorSilniBigDecimal implements KalkulatorSilni{
-    public BigDecimal liczBigDecimal(BigDecimal podstawa){
-    	if(podstawa.compareTo(new BigDecimal("0")) == -1)
-    	{
+public class KalkulatorSilniBigDecimal implements KalkulatorSilni {
+    public BigDecimal liczBigDecimal(BigDecimal podstawa) {
+    	if(podstawa.compareTo(BigDecimal.ZERO) == -1) {
     		throw new ArithmeticException();
     	}
-        if(podstawa.compareTo(new BigDecimal("0")) == 1) {
+        if(podstawa.compareTo(BigDecimal.ZERO) == 1) {
             return podstawa.multiply(liczBigDecimal(podstawa.subtract(BigDecimal.ONE)));
         } 
         else {
