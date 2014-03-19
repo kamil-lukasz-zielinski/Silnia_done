@@ -28,8 +28,6 @@ public class SzybkiKalkulatorSilni implements KalkulatorSilni{
     }
     
     public String licz(int arg) {
-        //wynik działania rekrurencyjnej metody rzutowany jest na String,
-        //Bo string przechowa bez problemu duże liczby
         return ""+liczLong(arg);
     }
 
