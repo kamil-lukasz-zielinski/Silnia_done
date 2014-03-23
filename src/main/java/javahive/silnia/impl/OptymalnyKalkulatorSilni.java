@@ -1,9 +1,5 @@
 package javahive.silnia.impl;
-
 import javahive.silnia.KalkulatorSilni;
-
-
-
 
 public class OptymalnyKalkulatorSilni implements KalkulatorSilni{
     
