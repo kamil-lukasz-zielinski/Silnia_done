@@ -1,17 +1,6 @@
 package javahive.silnia.impl;
-
 import java.math.BigDecimal;
-
 import javahive.silnia.KalkulatorSilni;
-
-/**
- *
- * @author Marcin Grabowiecki
- * 
- * proszę zaimplementować algorytm analogiczny jak dla SzybkaSilnia
- * jednak należy się oprzeć na na typie BigDecimal
- * 
- */
 
 public class KalkulatorSilniBigDecimal implements KalkulatorSilni {
     public BigDecimal liczBigDecimal(BigDecimal podstawa) {
