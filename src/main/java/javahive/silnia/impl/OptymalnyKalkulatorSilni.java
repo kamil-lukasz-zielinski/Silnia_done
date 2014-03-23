@@ -8,10 +8,10 @@ public class OptymalnyKalkulatorSilni implements KalkulatorSilni{
     public String licz(int podstawa){
         KalkulatorSilni i=null;
         if(podstawa <= MAKSYMALNYARGUMENTDLALONG) {
-        	i = new SzybkiKalkulatorSilni();
+            i = new SzybkiKalkulatorSilni();
         }
         else {
-        	i = new KalkulatorSilniBigDecimal();
+            i = new KalkulatorSilniBigDecimal();
         }
         return i.licz(podstawa);
     }
