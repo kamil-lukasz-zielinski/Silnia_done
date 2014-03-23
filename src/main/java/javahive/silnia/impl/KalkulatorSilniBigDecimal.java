@@ -5,8 +5,8 @@ import javahive.silnia.KalkulatorSilni;
 public class KalkulatorSilniBigDecimal implements KalkulatorSilni {
     public BigDecimal liczBigDecimal(BigDecimal podstawa) {
     	if(podstawa.compareTo(BigDecimal.ZERO) == -1) {
-    		throw new ArithmeticException();
-    	}
+            throw new ArithmeticException();
+        }
         if(podstawa.compareTo(BigDecimal.ZERO) == 1) {
             return podstawa.multiply(liczBigDecimal(podstawa.subtract(BigDecimal.ONE)));
         } 
