@@ -1,13 +1,7 @@
 package javahive.silnia.impl;
-
 import java.math.BigDecimal;
-
 import javahive.silnia.KalkulatorSilni;
 
-/**
- *
- * @author Marcin Grabowiecki
- */
 public class KalkulatorSilniNieRekurencyjny implements KalkulatorSilni {
 
     public BigDecimal liczB(int podstawa) {
